@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+.env
+.env.*
+
+# Large source assets (kept locally)
+*.pptx
+_pptx_extract/
+.firecrawl/
+
+# Frontend build artifacts
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/*.local

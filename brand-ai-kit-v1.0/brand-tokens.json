@@ -1,0 +1,127 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "version": "1.0.0",
+  "brand": {
+    "name_zh": "万物友灵",
+    "name_en": "Wanwu Youling",
+    "concept": "东方生命观 × AI未来感",
+    "core_expression": "静态是东方的沉静与生命智慧，动态中出现AI的灵光与未来能量。",
+    "language": "zh-CN"
+  },
+  "color": {
+    "brand": {
+      "wanwu_teal": {
+        "value": "#004951",
+        "role": "primary",
+        "usage": ["logo", "title", "navigation", "primary_text", "dark_background"]
+      },
+      "warm_sand": {
+        "value": "#E9DECB",
+        "role": "brand_background",
+        "usage": ["cover", "section_background", "human_story", "empty_space"]
+      },
+      "white": {
+        "value": "#FFFFFF",
+        "role": "content_background",
+        "usage": ["body_background", "table", "form", "data_surface"]
+      },
+      "sprout_green": {
+        "value": "#B8E43A",
+        "role": "digital_accent",
+        "usage": ["ai_activation", "primary_cta", "growth_progress", "key_data", "motion_highlight"],
+        "maximum_visual_area_percent": 10
+      }
+    },
+    "neutral": {
+      "ink_900": "#00383E",
+      "ink_700": "#245F65",
+      "ink_600": "#50787C",
+      "ink_500": "#718F92",
+      "ink_300": "#B8C8C6",
+      "ink_200": "#D7E0DE",
+      "ink_100": "#EDF2F0",
+      "sand_100": "#F6F2E9",
+      "sand_50": "#FBF9F4"
+    },
+    "semantic": {
+      "success": "#2E8B68",
+      "warning": "#D99124",
+      "danger": "#C94B4B",
+      "info": "#3B7DBE"
+    },
+    "ratio": {
+      "wanwu_teal_percent": 60,
+      "warm_neutral_percent": "30-35",
+      "sprout_green_percent": "5-10"
+    }
+  },
+  "typography": {
+    "chinese": ["Noto Sans SC", "Source Han Sans SC", "HarmonyOS Sans SC", "Microsoft YaHei"],
+    "latin": ["Aptos", "Inter", "Manrope", "Arial"],
+    "document": {
+      "title_pt": 28,
+      "subtitle_pt": 14,
+      "heading_1_pt": 18,
+      "heading_2_pt": 14,
+      "heading_3_pt": 11.5,
+      "body_pt": 10.5,
+      "caption_pt": 9
+    },
+    "presentation": {
+      "deck_title_min_px": 50,
+      "slide_title_min_px": 35,
+      "subheading_min_px": 24,
+      "body_min_px": 16
+    }
+  },
+  "layout": {
+    "document": {
+      "page": "A4 portrait",
+      "margin_mm": {
+        "top": 22,
+        "right": 20,
+        "bottom": 20,
+        "left": 20
+      }
+    },
+    "presentation": {
+      "aspect_ratio": "16:9",
+      "canvas_px": {
+        "width": 1280,
+        "height": 720
+      },
+      "safe_margin_px": 72,
+      "grid_columns": 12,
+      "max_body_bullets_per_slide": 6
+    }
+  },
+  "logo": {
+    "primary_color": "#004951",
+    "reverse_color": "#FFFFFF",
+    "digital_accent_color": "#B8E43A",
+    "minimum_horizontal_width_px": 120,
+    "minimum_horizontal_width_mm": 32,
+    "clear_space_rule": "at least one leaf short-axis around the logo",
+    "prohibited": ["stretch", "rotate", "outline", "shadow", "gradient", "leaf_veins", "low_contrast_background"]
+  },
+  "motion": {
+    "sequence": ["still", "center_node_on", "energy_flow", "three_leaves_light_sequentially", "return_to_still"],
+    "duration_seconds": "2.5-3.0",
+    "play_count": 1,
+    "easing": "natural_ease_in_out",
+    "prohibited": ["continuous_flashing", "looping_without_purpose", "full_logo_permanent_green"]
+  },
+  "voice": {
+    "attributes": ["clear", "warm", "restrained", "human_centered", "specific", "forward_looking"],
+    "preferred_words_zh": ["创造", "连接", "生长", "理解", "觉醒", "伙伴"],
+    "avoid": ["空泛口号", "能力夸大", "术语堆叠", "机械科技感", "未经证明的承诺"]
+  },
+  "priority": [
+    "approved_template",
+    "brand_tokens",
+    "brand_guidelines",
+    "task_requirements",
+    "model_defaults"
+  ]
+}
+

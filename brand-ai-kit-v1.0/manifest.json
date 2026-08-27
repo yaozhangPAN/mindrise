@@ -1,0 +1,26 @@
+{
+  "kit_name": "Wanwu Youling Brand AI Kit",
+  "version": "1.0.0",
+  "released": "2026-07",
+  "default_language": "zh-CN",
+  "entrypoint": "AI-INSTRUCTIONS.md",
+  "required_core_files": [
+    "BRAND.md",
+    "brand-tokens.json",
+    "AI-INSTRUCTIONS.md",
+    "CHECKLIST.md"
+  ],
+  "task_profiles": {
+    "document": [
+      "document-style.md",
+      "templates/Wanwu-Youling-Document-Template.docx"
+    ],
+    "presentation": [
+      "presentation-style.md",
+      "templates/Wanwu-Youling-Presentation-Template.pptx"
+    ],
+    "web_product": [
+      "reference/design.md"
+    ]
+  }
+}

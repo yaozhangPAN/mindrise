@@ -1,0 +1,86 @@
+:root {
+  --brand-ink: #004951;
+  --brand-sand: #e9decb;
+  --brand-sprout: #b8e43a;
+  --sprout-hover: #a6d02f;
+  --ink-900: #00383e;
+  --ink-700: #245f65;
+  --ink-600: #50787c;
+  --ink-500: #718f92;
+  --ink-300: #b8c8c6;
+  --ink-200: #d7e0de;
+  --ink-100: #edf2f0;
+  --sand-100: #f6f2e9;
+  --sand-50: #fbf9f4;
+  --background: #fbf9f4;
+  --surface: #ffffff;
+  --surface-warm: #f6f2e9;
+  --shadow-md: 0 8px 24px rgba(0, 73, 81, 0.08);
+  --shadow-focus: 0 0 0 3px rgba(184, 228, 58, 0.38);
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-enter: cubic-bezier(0, 0, 0.2, 1);
+  --font-latin: Inter, Manrope, Aptos, Arial, sans-serif;
+  color: var(--ink-900);
+  background: var(--background);
+  font-family:
+    "Noto Sans SC",
+    "Source Han Sans SC",
+    "HarmonyOS Sans SC",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 78px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  border-radius: 4px;
+  outline: none;
+  box-shadow: var(--shadow-focus);
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(184, 228, 58, 0.48);
+  color: var(--ink-900);
+}
