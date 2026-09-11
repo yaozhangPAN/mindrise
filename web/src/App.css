@@ -986,6 +986,29 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.challenge-grid.beliefs-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.challenge-grid.beliefs-grid .challenge-item,
+.challenge-grid.beliefs-grid .challenge-item:nth-child(even) {
+  border-right: 1px solid var(--ink-200);
+  padding: 36px 28px;
+}
+
+.challenge-grid.beliefs-grid .challenge-item:first-child {
+  padding-left: 0;
+}
+
+.challenge-grid.beliefs-grid .challenge-item:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.challenge-grid.beliefs-grid .challenge-item p {
+  max-width: none;
+}
+
 .challenge-item {
   border-bottom: 1px solid var(--ink-200);
   display: grid;
@@ -2617,9 +2640,16 @@
   }
 
   .challenge-grid,
+  .challenge-grid.beliefs-grid,
   .capability-grid,
   .case-grid {
     grid-template-columns: 1fr;
+  }
+
+  .challenge-grid.beliefs-grid .challenge-item,
+  .challenge-grid.beliefs-grid .challenge-item:nth-child(even) {
+    border-right: 0;
+    padding: 30px 0;
   }
 
   .challenge-item,

@@ -41,20 +41,20 @@ export const en: Translations = {
     langEn: 'EN',
   },
   hero: {
-    kicker: 'School Partnership Brief · For schools & education organisations · 2026',
-    eyebrow: 'AI-Driven Growth School',
+    kicker: 'AI as the engine. Growth as the outcome.',
+    eyebrow: 'AI as the engine. Growth as the outcome.',
     title: 'One Learner, One Path · One School, One Soul',
-    titleSpan: 'Helping schools navigate transformation in the AI era',
+    titleSpan: 'AI transformation partner for schools',
     lead:
-      'Wanwu Youling (MindRise) uses AI as the engine and growth as the outcome. We help schools start from one real problem, connect students, teachers, families, and leadership, turn insight into action, and accumulate lasting capability.',
+      'Wanwu Youling connects students, teachers, families, and schools — turning scattered signals into continuous understanding, understanding into executable action, and action into lasting, school-owned capability.',
     ctaPrimary: 'Request a school AI launch briefing',
     ctaSecondary: 'See how products fit in',
     promise: 'Start with one subject or one cohort — validate first, then expand into school-wide capability',
     visualLabel: 'AI Learning Companion',
     liveMark: 'Live product interface',
-    visualAlt: 'AI learning companion with contextual tasks and coaching interface',
-    noteTitle: 'Understand the learner first, then guide the answer',
-    noteText: 'Diagnose thinking bottlenecks and generate the next step',
+    visualAlt: 'AI Learning Companion everyday learning interface',
+    noteTitle: 'Everyday companion · exam-time precision',
+    noteText: 'Synced to your school’s pace — sustainable daily learning',
   },
   identity: {
     positioning: {
@@ -71,16 +71,16 @@ export const en: Translations = {
     },
     audience: {
       label: 'Who we serve',
-      value: 'Schools · families · education organisations · educators',
+      value: 'Schools · families · institutions · educators',
     },
     policy:
-      'National policy is pushing AI into every element of education — the shift is from buying tools to building lasting school capability.',
+      'The first question of AI transformation is not which tool to buy, but which assets to build — tools age; school-owned assets appreciate over time.',
   },
   about: {
     kicker: 'Who we are',
     title: 'Connect four roles so growth keeps happening',
     text:
-      'We serve schools, families, education organisations, and individual educators — making growth understandable, supportable, trackable, and accumulable as long-term personal and institutional capability.',
+      'Wanwu Youling is an AI transformation partner for schools. We connect students, teachers, families, and schools — turning scattered signals into continuous understanding, understanding into executable action, and action into lasting, school-owned capability.',
     roles: [
       { glyph: 'S', label: 'Students' },
       { glyph: 'T', label: 'Teachers' },
@@ -89,64 +89,53 @@ export const en: Translations = {
     ],
     center: 'Growth intelligence',
   },
-  challenges: {
-    kicker: 'What schools actually face',
-    title: 'Today’s challenge is not simply “add AI”',
+  beliefs: {
+    kicker: 'What we believe',
+    title: 'Boundaries matter as much as features when AI enters schools',
     text:
-      'If AI only adds tools and accounts, it creates new burden. It becomes school capability only when it solves real problems.',
+      'We can build the product, understand real school problems, and land solutions in organisations and markets.',
     items: [
-      ['01', 'Enrollment & brand', 'Homogenisation is intensifying — schools need differentiation that is visible and shareable.'],
-      ['02', 'Student development', 'Motivation, wellbeing, and individual differences are harder to cover through experience alone.'],
-      ['03', 'Teacher effectiveness', 'Planning, marking, communication, and admin squeeze time for knowing each student.'],
-      ['04', 'School governance', 'Data is fragmented and evaluation lags — leadership lacks a continuous basis for decisions.'],
+      ['01', 'Technology supports teachers — never replaces them', 'AI connects, identifies, explains, and supports action; understanding, judgment, and accountability stay with people.'],
+      ['02', 'Validate before you scale', 'Acceptance rests on mutually agreed measures and process evidence — no guaranteed-pass claims.'],
+      ['03', 'Assets belong to the school; judgment belongs to teachers', 'Knowledge bases, growth files, and agents accumulate as school assets; data is not used to train foundation models.'],
     ],
   },
   productMap: {
     kicker: 'Product map',
-    title: 'Three standard entry points, two long-term assets',
+    title: 'Three AI entry points, two long-term assets',
     text:
-      'We do not lead with one large system. We start from real problems and standardised products, connect four roles, and accumulate school-owned AI capability over time.',
+      'Five product lines at a glance — start from one product, grow into a system. Solve real scenarios at the front; accumulate school-owned assets at the back.',
     entries: [
       {
         title: 'AI for Teaching',
-        subtitle: 'Teacher workflow',
-        text: 'Lesson planning, delivery, assessment, and teacher twin — returning educators to professional judgment.',
+        subtitle: 'AI Teaching Assistant · AI Teacher Twin',
+        text: 'Teaching Assistant: planning, slides, papers, marking, Q&A, reports; Teacher Twin: amplify a great educator.',
       },
       {
         title: 'AI for Learning',
-        subtitle: 'Core learning products',
-        text: 'AI Learning Companion and Precision Score-Up — understand the learner first, then guide the answer.',
+        subtitle: 'AI Learning Companion · AI Score-Up',
+        text: 'Learning Companion: everyday synced learning; Score-Up: short-term exam prep — diagnose why errors happen first.',
       },
       {
         title: 'AI for Creation',
-        subtitle: 'Project-based creation',
-        text: 'Project-based AI creation and real-world problem solving — turning teacher expertise into school-wide capability.',
-      },
-      {
-        title: 'One Learner, One Path',
-        subtitle: 'Individual growth file',
-        text: 'A living growth record for every learner — continuously updated, never a one-off label.',
-      },
-      {
-        title: 'One School, One Soul',
-        subtitle: 'School-owned assets',
-        text: 'The school’s own data, knowledge base, and agents — capability that stays with the institution.',
+        subtitle: 'AI Maker',
+        text: 'Project-based AI creation · co-built agents · real-world problems — strong work becomes school-wide assets.',
       },
     ],
     assets: [
       {
         title: 'One Learner, One Path',
         subtitle: 'Living growth file',
-        text: 'Multi-source signals build an evolving profile that supports subject choices, transitions, and pathways over time.',
+        text: 'A continuously updated growth file and cognitive profile for every learner — supports grouping, subject choices, and transitions; deliverable as a standalone system.',
       },
       {
         title: 'One School, One Soul',
-        subtitle: 'Institutional AI assets',
-        text: 'School knowledge bases, role agents, and leadership views — not usage logs, but owned capability.',
+        subtitle: 'School-owned assets',
+        text: 'The school’s own knowledge base, teacher twins, and agents — thicker with use, transferable, and appreciating; assets stay with the school.',
       },
     ],
     footnote:
-      'Solve real scenarios at the front; accumulate school-owned assets at the back. Start from one product, grow into a system.',
+      'Every use makes the assets thicker — use accumulates; accumulation creates value.',
   },
   productFilm: {
     kicker: 'How the product is used',
@@ -172,127 +161,108 @@ export const en: Translations = {
     ],
   },
   proof: {
-    fieldKicker: 'In the field',
-    fieldTitle: 'Technology enters education where people co-create together',
+    fieldKicker: 'Proven in real schools',
+    fieldTitle: 'Not a concept demo — real schools have already validated',
     fieldText:
-      'Teacher training, needs co-design, classroom practice, and role coordination — so schools do not merely “use a tool” but gradually build their own AI capability.',
+      'Focused, co-designed, evidence-led — validate before you scale. Teacher training, needs co-design, and classroom practice help schools build their own AI capability.',
     fieldMeta: ['Real school settings', 'Teacher co-creation', 'Bilingual subtitles'],
     casesKicker: 'Partner school evidence',
-    casesTitle: 'From a single entry point to scalable school capability',
+    casesTitle: 'Focused, co-designed, evidence-led pilots',
     casesText:
       'The following anonymised partner samples show different entry paths already operating in real education settings.',
     coCreateTitle: 'On-site co-creation: two report cards',
     coCreateText:
       'Our team works on site — planning, teaching, and reviewing alongside teachers — co-designing a curriculum that covers both academic learning and whole-person development.',
     reportCards: [
-      ['Report card 1 · Academic learning', 'Curriculum outlines and quality lesson plans enter the knowledge base; AI planning, paper assembly, and learning analytics become daily teaching workflow — full lesson materials in about 10 minutes.'],
+      ['Report card 1 · Academic learning', 'Curriculum outlines and quality lesson plans enter the knowledge base; AI planning, paper assembly, and analytics become daily workflow — collective prep from 1–2 days to full lesson materials in about 10 minutes.'],
       ['Report card 2 · Whole-person development', 'One Learner, One Path accumulates character, wellbeing, interests, and pathways — producing growth reports that coordinate home, school, and teachers.'],
     ],
     coCreateNote: 'Beyond grades — the whole child, seen. On-site documentary footage available during deeper conversations.',
     visuals: [
       {
-        alt: 'Orientation-season on-site session',
-        title: 'Orientation season',
-        caption: 'AI exploration · growth profile · family dialogue',
+        alt: 'Chengdu K-12 school-wide AI transformation',
+        title: 'Chengdu · K-12 school-wide AI',
+        caption: '1,583 registered · 62% activity · 92.7% task completion',
       },
       {
-        alt: 'One Learner growth launch handbook',
-        title: 'Growth launch handbook',
-        caption: 'Profile, radar chart, and actionable guidance',
+        alt: 'Singapore international school AI teaching system',
+        title: 'Singapore · International school',
+        caption: '30 teachers serving 1,000 students · school-corpus driven',
       },
       {
-        alt: 'School AI transformation co-creation',
-        title: 'School co-creation',
-        caption: 'From single scenarios to school-owned capability',
+        alt: 'First One Learner campus sample',
+        title: 'Chengdu · One Learner sample',
+        caption: 'From needs interview to first growth reports · under 10 days',
       },
     ],
     sourceNote:
-      'Case content is drawn from company project materials. Public display anonymises school names, personal names, and identifiable marks. Final publication follows the latest confirmed version.',
+      'Case content is drawn from company project materials. Public display anonymises school names and identifiable marks. This site does not include pricing — final quotes follow formal proposals.',
   },
   caseStudies: [
     {
       id: '01',
       title: 'Partner School A',
-      location: 'China · K-12 · School-wide AI learning deployment',
-      metrics: ['1,583 registered users', '62% student activity rate', '92.7% task completion'],
+      location: 'Chengdu · K-12 · School-wide AI transformation',
+      metrics: ['1,583 registered', '62% activity rate', '92.7% task completion'],
       summary:
-        'Over roughly three months, the school moved from pilot to scaled operation: 61 teachers created 572 courses and 867 learning tasks across nine subject areas.',
+        'Collective lesson prep compressed from 1–2 days to full materials in about 10 minutes; scaled from pilot to school-wide operation across nine subject areas in roughly three months.',
       highlights: [
-        'Among 644 active students, 52% completed at least one full task — about 2,239 learning hours in total',
-        'AI capability assessments generated 49,437 reports, closing the loop between evaluation and teaching feedback at scale',
+        '61 teachers created 572 courses and 867 learning tasks',
+        'Among 644 active students, 52% completed at least one full task — about 2,239 learning hours',
         {
-          before: 'Foundational knowledge can be delegated to guided learning; lesson preparation compressed from 1–2 days to 5–10 minutes — prep efficiency up ',
+          before: 'Lesson-prep efficiency up ',
           emphasis: '80%',
-          after: ' or more.',
+          after: ' or more (foundational knowledge delegated to guided learning; prep from 1–2 days to 5–10 minutes).',
         },
-        {
-          before: 'Successful activation rate for severely disengaged students: ',
-          emphasis: '100%',
-          after: '.',
-        },
+        'Accumulate → generate → review → return — every cycle makes the knowledge base more like your school',
       ],
     },
     {
       id: '02',
       title: 'Partner School B',
-      location: 'China · Primary · One Learner face-to-face orientation',
-      metrics: ['No exam-based assessment', 'AI profile generation', '15-minute family dialogue'],
+      location: 'Singapore · International school · School-corpus driven',
+      metrics: ['30 teachers', '1,000 students', 'Bilingual curriculum integration'],
       summary:
-        'During orientation, AI and gamified exploration produced first growth profiles — no exams, no standard answers — focused on how each child thinks and what draws their interest.',
+        'Built a complete AI-assisted teaching system centred on the school’s own resources — 30 teachers serving 1,000 students, validating product usability in an international context.',
       highlights: [
-        'Teacher observation combined with the One Learner × AI system produced a Growth Launch Handbook in about ten minutes',
-        'Handbook includes capability radar, family guidance, and two-week to 1–3 month action plans',
-        'Principal and homeroom teacher held a 15-minute one-to-one listening session to align family expectations into a shared plan',
+        'Single-lesson AI preparation in about 30 minutes — well below the traditional 3–5 hours',
+        'School knowledge base drives planning, papers, and Q&A; quality outputs continuously return to the corpus',
+        'Bilingual curriculum integrated with AI workflow',
       ],
     },
     {
       id: '03',
       title: 'Partner School C',
-      location: 'China · Secondary · Three-year growth navigation pilot',
-      metrics: ['Multi-dimensional growth assessment', 'Three-year roadmap', 'Growth partner mechanism'],
+      location: 'Chengdu · One Learner · First campus sample',
+      metrics: ['< 10 days', 'First growth reports', 'On-site co-creation'],
       summary:
-        'New secondary students completed scenario-based simulation and multi-dimensional AI assessment, producing a Three-Year Growth Roadmap linking subject strengths, emotional patterns, and future direction.',
+        'From needs interviews and co-design through system adaptation, teacher training, and on-site implementation — first growth reports delivered in under 10 days.',
       highlights: [
-        'Combines subject strengths, thinking patterns, personality traits, and emotional maps into an executable growth path',
-        'Reports cover learning strategies, relationships, self-management, and family coordination guidance',
-        'Principal, mentor, and family held a 15-minute “growth partner” conversation focused on adolescent positioning',
-      ],
-    },
-    {
-      id: '04',
-      title: 'Partner School D',
-      location: 'Overseas · International school · 4-week international pilot',
-      metrics: ['31 registered users', '85% student login rate', '10 courses / 34 tasks'],
-      summary:
-        'Within four weeks, three subject teachers used AI to create structured learning content; 85% of registered students completed cold-start login — validating product usability across cultural contexts.',
-      highlights: [
-        'Single-lesson AI preparation took about 30 minutes — significantly below the traditional 3–5 hours',
-        {
-          before: 'Validated with 500 students: knowledge mastery that once required four class periods now achievable in one — ',
-          emphasis: 'four times the learning efficiency',
-          after: '.',
-        },
-        'The pilot surfaced mobile UX and course-difficulty matching issues, informing phase-two optimisation',
+        'On-site co-creation of “two report cards”: academic learning + whole-person development',
+        'Multi-source signals build a growth baseline; dynamic profiles update continuously',
+        'Replace last-minute judgment with continuous understanding across the school journey',
       ],
     },
   ],
   founder: {
-    kicker: 'Founder',
-    role: 'Founder · Wanwu Youling',
+    kicker: 'Founder & core team',
+    role: 'Founder · CEO · Executive Director',
     name: 'Dr. Fiona Pan · 潘耀章',
-    subtitle: 'Founder · CEO · Executive Director',
+    subtitle: 'From BCI research to hundred-million-user AI systems',
     badges: [
-      'National-level overseas high-level talent (MIIT)',
+      'National major talent programme innovation project',
       'SIP Science & Technology Leading Talent',
+      '2025 “Win in Suzhou” global innovation competition award',
     ],
-    badgeEm: 'Former Shopee / GoTo technology executive',
+    badgeEm: 'Former Head of AI Algorithms, Shopee · CDO, Tokopedia',
     credentials: [
-      'BEng & MEng in Electronic Engineering, Harbin Institute of Technology',
-      'PhD in Electrical & Computer Engineering (AI), National University of Singapore',
-      'A*STAR research in brain-computer interfaces and neural signal analysis',
+      '26 papers · 2 US invention patents · 2020 Singapore 100 Women in Tech',
+      'BEng & MEng, Harbin Institute of Technology',
+      'PhD in ECE (AI), National University of Singapore',
+      'Research scientist at NUS / A*STAR — brain-computer interfaces and neural signal analysis',
     ],
     bio:
-      'National-level overseas high-level talent and SIP Science & Technology Leading Talent; former Shopee / GoTo technology executive. Previously Chief Data Officer at Tokopedia; led data and AI core businesses at Shopee and Grab; built data and algorithm systems for hundred-million-user products and led teams of 300–400.',
+      'HIT undergraduate and master’s; NUS PhD; research scientist at NUS / A*STAR. Former CDO at Tokopedia and Head of AI Algorithms at Shopee; led 300+ engineers building data and algorithm systems for hundred-million-user products.',
     timeline: [
       {
         period: '2000–2014',
@@ -351,9 +321,9 @@ export const en: Translations = {
   },
   technology: {
     kicker: 'Technology & research backing',
-    title: 'From BCI research to an intelligent learning engine for real cognitive states',
+    title: 'Hierarchical learning-state recognition · process evidence · adaptive pathways',
     text:
-      'Core patent direction: “AI adaptive tutoring system and method based on a hierarchical learning-state engine” — dynamically diagnosing thinking bottlenecks and cognitive habits for individual learners, supporting pathway planning, practice feedback, and continuous updates.',
+      'CNIPA-published invention patent application (202610712535.4, 11 Aug 2026) — an autonomous technical path from hierarchical learning-state recognition through process-evidence capture to adaptive tutoring pathways. From BCI research to an intelligent learning engine for real cognitive states.',
     facts: [
       'Brain science & BCI research foundation',
       'Hundred-million-user AI product experience',
@@ -364,32 +334,31 @@ export const en: Translations = {
   pilotApproach: {
     kicker: 'How we pilot',
     title: 'Focused, co-designed, evidence-led — validate before you scale',
-    text:
-      'A controlled pilot with strong co-creation and structured review — so both sides can decide whether to continue, adjust, or expand based on evidence.',
+    text: 'Co-design → set-up & training → use → review — then decide together: continue, adapt, or scale.',
     steps: [
       {
-        index: '0',
+        index: '01',
         title: 'Co-design',
-        text: 'Confirm target campus, grade, subject, language version, data agreements, teacher roles, and success criteria.',
+        text: 'Confirm campus, grade, subject, data agreements, teacher roles, and success criteria.',
       },
       {
-        index: '1',
+        index: '02',
         title: 'Set-up & training',
-        text: 'Accounts, content, and device configuration; curriculum materials ingested; concise teacher training and interpretation guides.',
+        text: 'Accounts, content, and device configuration; materials ingested; teacher training and interpretation guides.',
       },
       {
-        index: '2',
+        index: '03',
         title: 'Use',
-        text: 'Students enter diagnosis and daily learning loops / subject teams enter curriculum co-build; teachers participate and confirm as agreed.',
+        text: 'Students enter learning loops / subject teams enter curriculum co-build.',
       },
       {
-        index: '3',
+        index: '04',
         title: 'Review',
-        text: 'Joint analysis of outcomes, risks, experience, and implementation burden — decide together to continue, adjust, or expand.',
+        text: 'Joint analysis of outcomes and risks — decide together to continue, adapt, or expand.',
       },
     ],
     cadence:
-      'Suggested cadence: start with one campus, grade, or subject team; first evidence loop in 4–8 weeks. Multi-campus groups can launch in parallel with shared methods and curriculum assets.',
+      'Suggested cadence: start with one campus, grade, or subject team; first evidence loop in 4–8 weeks. A pilot package can be provided within one week of confirming the scenario.',
     measuresTitle: 'First-phase success measures',
     measures: [
       'Diagnostic quality — teacher assessment of explainability and alignment with actual learning conditions',
@@ -399,21 +368,21 @@ export const en: Translations = {
       'Implementation feasibility — devices, training, and data governance requirements',
     ],
     disclaimer:
-      'Acceptance rests on mutually agreed measures and process evidence — no guaranteed-pass claims.',
+      'Safeguards: data minimisation (no camera, microphone, or biometrics) · teachers in the loop · no high-risk uses (no grouping, grading, awards, or teacher appraisal) · data not used to train foundation models · assets belong to the school · minor protection · not a substitute for medical diagnosis or psychotherapy · no guaranteed-pass claims.',
   },
   pilots: {
     kicker: 'Where to start',
     title: 'Prove value in a controlled pilot, then decide how to expand',
     text:
-      'You do not need to deploy everything at once. Choose one cohort, one subject, or one workflow based on the school’s most urgent problem.',
+      'Choose one cohort, one subject, or one workflow based on the school’s most urgent problem.',
     items: [
-      ['A', 'AI Learning Companion / Precision Score-Up', 'One subject · one grade · 4–8 weeks', 'Fastest path to measurable learning value'],
-      ['B', 'One Learner, One Path', 'New intake · one grade · one cohort', 'Build a living growth-file sample'],
-      ['C', 'AI for Teaching', 'One planning group · planning-to-assessment workflow', 'Validate teacher efficiency and expertise accumulation'],
-      ['D', 'Campus AI co-creation', 'Agents · knowledge base · creation projects', 'From scenario use to long-term school assets'],
+      ['A', 'AI Learning Companion / AI Score-Up', 'One subject · one grade · 4–8 weeks', 'Fastest path to measurable learning value'],
+      ['B', 'One Learner, One Path', 'One grade · one cohort', 'Build a living growth-file sample'],
+      ['C', 'AI Teaching Assistant', 'One planning group · planning-to-assessment workflow', 'Validate teacher efficiency and expertise accumulation'],
+      ['D', 'AI Maker', 'Agents · knowledge base · creation projects', 'From scenario use to long-term school assets'],
     ],
     note:
-      'We recommend starting with AI Learning Companion / Precision Score-Up or One Learner, One Path; after validation, expand into teaching, creation, and school-owned assets.',
+      'We recommend starting with AI Learning Companion / AI Score-Up or One Learner, One Path; after validation, expand into teaching, creation, and school-owned assets.',
   },
   pricing: {
     kicker: 'Proposed next steps',
@@ -514,13 +483,13 @@ export const en: Translations = {
     groups: [
       {
         id: 'ai-creation',
-        label: 'AI for Creation',
+        label: 'AI Maker',
         title: 'Students as creators in the AI era',
         description:
-          'The core competence in the AI era is not “using AI”, but “creating with AI”.',
+          'When AI can answer most questions, what becomes scarce is the ability to ask good questions, define real problems, and turn ideas into finished work.',
         bullets: [
-          'Project-based AI creation — from idea and design to finished work around real problems',
-          'Co-created agents — teachers and students build callable agents; strong work becomes school assets',
+          'Project-based AI creation — from idea and design to finished work; teachers mentor, AI supports research, prototyping, and iteration',
+          'Co-created agents — custom agents callable school-wide; strong work becomes campus assets',
           'Real-world problem solving — connect classroom knowledge to campus and community; outcomes you can showcase and assess',
         ],
         tagline: 'From learning with AI to creating with AI.',
@@ -528,99 +497,31 @@ export const en: Translations = {
           src: '/media/ai-creation-demo.mp4',
           poster: '/media/ai-creation-poster.jpg',
           title: 'How Far Can an Idea Take You?',
-          alt: 'AI for Creation demo video: How Far Can an Idea Take You?',
+          alt: 'AI Maker demo video: How Far Can an Idea Take You?',
         },
         images: [],
       },
       {
-        id: 'score-up',
-        label: 'Precision Score-Up',
-        title: 'See every step of thinking — not just the final answer',
-        description:
-          'Same score, different causes. Diagnose four bottleneck types, then run a complete loop from inspectable reports to personalised plans, companion scaffolding, and smart review.',
-        bullets: [
-          'Concept gap — rebuild key concepts before practice transfer',
-          'Skipped reasoning — train full derivation without re-teaching mastered ideas',
-          'Broken logic chain — build problem frameworks and step relationships',
-          'Execution slip — targeted drills without disrupting the knowledge path',
-          'Inspectable diagnosis reports for teacher confirmation',
-          'Personalised plans and daily pathways ranked by learning value and difficulty',
-          'Graduated scaffolding when truly stuck — never the answer itself',
-          'Review scheduled by error cause × knowledge point',
-        ],
-        boundary:
-          'CNIPA-published invention patent application (202610712535.4) · evidence from task interaction only — no camera or microphone input.',
-        images: [
-          {
-            src: '/media/knowledge-map.webp',
-            alt: 'Knowledge map and weak-point analysis interface',
-            caption: 'Knowledge map · dependency view',
-          },
-          {
-            src: '/media/score-plan.webp',
-            alt: 'Personalised score-up plan interface',
-            caption: 'Opportunity ranking · sprint plan',
-          },
-          {
-            src: '/media/student-dashboard.webp',
-            alt: 'Student learning tasks and growth dashboard',
-            caption: 'Task feedback · dynamic reassessment',
-          },
-        ],
-      },
-      {
-        id: 'one-learner',
-        label: 'One Learner, One Path',
-        title: 'Understand a student continuously — never define them once',
-        description:
-          'Multi-source signals → evolving profile → personalised support → continuous updates and phase reviews. Longitudinal evidence for subject choices, transitions, and pathways.',
-        bullets: [
-          'School leaders — cohort trends, grade characteristics, and resource priorities',
-          'Teachers — individual differences, recent changes, and communication support',
-          'Families — strengths, real needs, and practical guidance',
-          'Students — age-appropriate goal setting, growth tasks, and self-reflection',
-          'Replace last-minute judgment with continuous understanding across the school journey',
-        ],
-        boundary:
-          'Safeguards: purpose-limited · minimal necessary data · role-based access · human review · not a substitute for medical diagnosis or psychotherapy.',
-        images: [
-          {
-            src: '/media/growth-profile.webp',
-            alt: 'Student multi-dimensional growth profile',
-            caption: 'One learner · dynamic profile',
-          },
-          {
-            src: '/media/growth-report.webp',
-            alt: 'Student growth report with home-school guidance',
-            caption: 'Role guidance · home-school coordination',
-          },
-          {
-            src: '/media/case-report.webp',
-            alt: 'Growth handbook sample from onboarding programme',
-            caption: 'Growth file · actionable guidance',
-          },
-        ],
-      },
-      {
         id: 'teacher-efficiency',
-        label: 'Teacher Efficiency',
-        title: 'One workflow on a private school knowledge base',
+        label: 'AI Teaching Assistant',
+        title: 'One workflow — not one more tool',
         description:
-          'Accumulate school corpus → generate grounded in school materials → teacher review → return outputs as school assets. Six integrated steps across planning, resources, assessment, and communication.',
+          'Teachers do not need another tool — they need one complete workflow grounded in the school’s private knowledge base, from planning through papers, Q&A, and reports.',
         bullets: [
-          'AI lesson planning from curriculum outlines and proven lesson plans',
-          'Slides, item variants, and tiered tasks for teacher finalisation',
-          'Paper assembly by knowledge point, difficulty, and item type',
-          'Marking suggestions against school standards; error patterns for re-teaching',
-          'School-grounded Q&A with traceable sources; out-of-scope queries routed to teachers',
-          'Reports and home-school communication drafted once, reviewed before sending',
+          'AI lesson planning — designs grounded in curriculum outlines and proven lesson plans',
+          'Slides and resources — frameworks, item variants, and tiered tasks for teacher finalisation',
+          'Paper assembly — by knowledge point, difficulty, and item type',
+          'Marking and analytics — suggestions against school standards; error patterns for re-teaching',
+          'School-grounded Q&A — traceable answers; out-of-scope queries routed to teachers',
+          'Reports and communication — drafts for review before sending',
+          'Accumulate → generate → review → return — every cycle makes the knowledge base more like your school',
         ],
         boundary:
-          'School-owned assets · data not used to train foundation models · human-in-the-loop · never for teacher performance appraisal.',
+          'School-owned assets · data not used to train foundation models · human-in-the-loop · never for teacher appraisal, ranking, or HR decisions · role-based access · minor protection.',
         images: [
           {
             src: '/media/teaching-workflow.webp',
-            alt: 'Teacher agent and teaching workflow interface',
+            alt: 'AI Teaching Assistant workflow interface',
             caption: 'Teacher workflow · agents',
           },
           {
@@ -640,22 +541,121 @@ export const en: Translations = {
         label: 'AI Teacher Twin',
         title: 'Amplify an educator — never replace one',
         description:
-          'Knowledge, method, and presence layers recreate a teacher’s authorised corpus, pedagogy, and familiar classroom feel — extending reach without removing human judgment.',
+          'A twin is not a substitute — it is a digital extension of a teaching system. Built on authorised notes and examples, it reproduces pedagogy and presence under the teacher’s ongoing oversight.',
         bullets: [
-          'Knowledge layer — answers only within the teacher’s authorised base (text corpus up to 1 GB)',
-          'Method layer — this teacher’s explanation sequence, questioning, scaffolding, and tiered delivery',
+          'Knowledge layer — authorised notes, examples, and solution paths (text corpus up to 1 GB)',
+          'Method layer — explanation sequence, questioning, scaffolding, and tiered delivery',
           'Presence layer — 2D avatar and voice simulation for familiar classroom continuity',
-          'Amplified expertise — one teacher’s explanations reach the whole school; after-hours Q&A on demand',
-          'Continuity across cohorts — teaching systems stay as school assets beyond staff moves or retirement',
-          'Signature-subject brand — anchor distinctive programmes and school differentiation',
+          'Time gap — after-hours Q&A on demand · Space gap — one teacher’s reach across the whole school · Legacy gap — teaching systems stay as school assets',
+          'Closed loop: authorise → model → serve students → feedback and update — always under teacher oversight',
         ],
         boundary:
-          'Personal written consent (revocable) · controlled, traceable content · teacher oversight · no evaluative use with students.',
+          'Personal written consent (revocable) · answers only within authorised corpus · teacher oversight · no grading, awards, or teacher appraisal · data not used to train foundation models · minor protection (usage limits; not an emotional-companion substitute).',
         images: [
           {
             src: '/media/teacher-twin-voice.webp',
             alt: 'AI Teacher Twin real-time voice conversation interface',
             caption: 'Real-time voice · 2D avatar and voice',
+          },
+        ],
+      },
+      {
+        id: 'learning-companion',
+        label: 'AI Learning Companion',
+        title: 'Everyday companion · exam-time precision',
+        description:
+          'Not another drill app — synced to your school’s teaching pace for sustainable daily learning. Complements AI Score-Up: everyday companion, exam-time precision; cognitive profiles from companion use make score-up diagnosis more accurate.',
+        bullets: [
+          'Thinking-bottleneck diagnosis — observe process, not just wrong answers; ~5 items to locate cause vs ~100 for drill matching',
+          'Real-time emotional awareness — strategy shifts by state: focus, stuck, discouraged, or fatigued',
+          'Evolving cognitive profile — habits, patterns, and coping styles shape the best explanation format over time',
+          'Covers preview, practice, Q&A, and review along classroom pace — keeping daily learning sustainable',
+        ],
+        boundary:
+          'Daily duration limits, quiet hours, and break mechanisms · no camera or microphone · supports classroom learning, does not replace classroom teaching.',
+        images: [
+          {
+            src: '/media/learning-coach.webp',
+            alt: 'AI Learning Companion coaching interface',
+            caption: 'Graduated scaffolding · never the answer',
+          },
+          {
+            src: '/media/learning-task.webp',
+            alt: 'AI Learning Companion daily tasks interface',
+            caption: 'Synced to school pace · sustainable daily learning',
+          },
+        ],
+      },
+      {
+        id: 'score-up',
+        label: 'AI Score-Up',
+        title: 'Not “practice more because you got it wrong” — first understand why',
+        description:
+          'Same score, different causes. The system identifies where reasoning broke, why it may have broken, and what to do next — then turns diagnosis into a daily executable pathway.',
+        bullets: [
+          'Concept gap — rebuild key concepts before practice transfer',
+          'Skipped reasoning — train full derivation without re-teaching mastered ideas',
+          'Broken logic chain — build problem frameworks and step relationships',
+          'Execution slip — targeted drills without disrupting the knowledge path',
+          'Inspectable diagnosis reports for teacher confirmation',
+          'Personalised plans and daily pathways ranked by learning value and difficulty',
+          'Graduated scaffolding when truly stuck — never the answer itself',
+          'Review scheduled by error cause × knowledge point',
+          '~5 items to locate cause — observe process, not ~100 drill matches',
+        ],
+        boundary:
+          'CNIPA-published invention patent application (202610712535.4, Aug 2026) · evidence from task interaction only — no camera or microphone · initially focused on gaokao prep; expandable to IGCSE / A Levels / IB after validation.',
+        images: [
+          {
+            src: '/media/knowledge-map.webp',
+            alt: 'Knowledge map and weak-point analysis interface',
+            caption: 'Knowledge map · dependency view',
+          },
+          {
+            src: '/media/score-plan.webp',
+            alt: 'Personalised score-up plan interface',
+            caption: 'Opportunity ranking · sprint plan',
+          },
+          {
+            src: '/media/student-dashboard.webp',
+            alt: 'Student learning tasks and growth dashboard',
+            caption: 'Task feedback · dynamic review',
+          },
+        ],
+      },
+      {
+        id: 'one-learner',
+        label: 'One Learner, One Path',
+        title: 'Every learner, continuously seen',
+        description:
+          'Schools do not lack student data — they lack continuous, complete understanding of each child. One Learner, One Path turns scattered signals into sustained understanding and action — a shared growth asset across all product lines, deliverable standalone.',
+        bullets: [
+          'Scattered information — grades, wellbeing, teacher observation, and family background into one baseline',
+          'Changing growth — update emotion, cognition, personality, and learning over time; never fixed labels',
+          'Action after insight — teacher support, home-school coordination, and decision points',
+          'School leaders — cohort trends and resource priorities',
+          'Teachers — individual differences, recent changes, and communication support',
+          'Families — strengths, real needs, and practical guidance',
+          'Students — age-appropriate goals, growth tasks, and self-reflection',
+          'First campus sample: from needs interview to first growth reports in under 10 days',
+        ],
+        boundary:
+          'Purpose-limited · minimal necessary data · role-based access · human review · explainable and correctable · not a substitute for medical diagnosis, psychotherapy, or crisis intervention.',
+        images: [
+          {
+            src: '/media/growth-profile.webp',
+            alt: 'Student multi-dimensional growth profile',
+            caption: 'One learner · dynamic profile',
+          },
+          {
+            src: '/media/growth-report.webp',
+            alt: 'Student growth report with home-school guidance',
+            caption: 'Four roles · home-school coordination',
+          },
+          {
+            src: '/media/case-report.webp',
+            alt: 'Growth handbook sample from onboarding programme',
+            caption: 'Growth file · actionable guidance',
           },
         ],
       },

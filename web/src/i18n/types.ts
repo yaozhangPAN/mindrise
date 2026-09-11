@@ -145,7 +145,7 @@ export type Translations = {
     roles: RoleNode[]
     center: string
   }
-  challenges: {
+  beliefs: {
     kicker: string
     title: string
     text: string

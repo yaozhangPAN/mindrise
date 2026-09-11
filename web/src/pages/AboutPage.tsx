@@ -82,12 +82,12 @@ export default function AboutPage() {
 
       <section className="section challenge-section">
         <div className="section-heading">
-          <span className="section-kicker">{t.challenges.kicker}</span>
-          <h2>{t.challenges.title}</h2>
-          <p>{t.challenges.text}</p>
+          <span className="section-kicker">{t.beliefs.kicker}</span>
+          <h2>{t.beliefs.title}</h2>
+          <p>{t.beliefs.text}</p>
         </div>
-        <div className="challenge-grid">
-          {t.challenges.items.map(([index, title, text]) => (
+        <div className="challenge-grid beliefs-grid">
+          {t.beliefs.items.map(([index, title, text]) => (
             <article className="challenge-item" key={index}>
               <span className="challenge-index">{index}</span>
               <div>
